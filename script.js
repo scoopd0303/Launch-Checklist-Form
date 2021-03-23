@@ -37,7 +37,7 @@ window.addEventListener("load", function() {
       if (pilotName.value === '' || copilotName.value === '' || fuelLevel.value === '' || cargoMass.value === '') {
 
          event.preventDefault();
-         alert("All fields required!");
+         alert("All fields are required!");
 
       } else if (isNaN(Number(fuelLevel.value)) || isNaN(Number(cargoMass.value))) {
 
